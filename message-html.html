@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message for I MAKE PEOPLE SADaan</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+            animation: fadeIn 2s;
+            background: #fff;
+            transition: background 2s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes backgroundChange {
+            0% { background: #f3e5f5; }
+            33% { background: #e1bee7; }
+            66% { background: #d1c4e9; }
+            100% { background: #f3e5f5; }
+        }
+
+        .heart-animation {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: url('https://media.giphy.com/media/13dXWcphHKVpEC/giphy.gif') no-repeat center center;
+            background-size: contain;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .fade {
+            animation: fadeOut 3s forwards;
+        }
+
+        @keyframes fadeOut {
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+
+        .slide-in {
+            animation: slideIn 2s forwards;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(100%); }
+            to { transform: translateX(0); }
+        }
+
+        .message {
+            font-size: 28px;
+            margin: 20px 0;
+        }
+
+        .highlight {
+            color: #ff6b6b;
+            font-weight: bold;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="intro" class="container">
+        <div class="message">"You have sinned a lot already, now you gotta be punished with lots of negative energy, my child suffered a lot because of you, now you gotta pay for it."</div>
+    </div>
+
+    <div id="main" class="container hidden">
+        <div class="message">Here you go</div>
+    </div>
+
+    <div id="slide1" class="container hidden">
+        <div class="message" style="color: red;">"You always think that we're drifting away."</div>
+        <div class="message">"This is your sin number 1."</div>
+    </div>
+
+    <div id="slide2" class="container hidden">
+        <div class="message">"Eh! Playing the victim card now."</div>
+    <div class="message">"This is your sin number 2."</div>
+</div>
+
+    <div id="explanations" class="container hidden">
+        <h1>EXPLANATIONS</h1>
+        <div class="message">
+            "I have abandonment issues and I know it, but getting hurt by you literally made me wake up from my dream that I thought you'd understand me no matter what, coz you know my whole life, but I was wrong, thanks for proving me wrong."
+        </div>
+    </div>
+
+    <div id="final" class="container hidden">
+        <div class="message">
+            "Thank you for watching, that's how I watched my life tearing apart."
+        </div>
+    </div>
+
+    <audio id="background-music" autoplay>
+        <source src="https://www.jiosaavn.com/p/song/search/Gaddi-Red-Challenger/Gaddi-Red-Challenger/SSo7SwMJT0I" type="audio/mpeg">
+        
+    </audio>
+
+    <script>
+        function showSlide(id, delay) {
+            setTimeout(() => {
+                document.querySelectorAll('.container').forEach(container => container.classList.add('hidden'));
+                document.getElementById(id).classList.remove('hidden');
+            }, delay);
+        }
+
+        // Initial setup
+        document.getElementById('intro').classList.remove('hidden');
+        
+        // Show intro
+        setTimeout(() => showSlide('main', 5000), 5000);
+        
+        // Show main message
+        setTimeout(() => showSlide('slide1', 5000), 10000);
+        
+        // Show slide 1
+        setTimeout(() => showSlide('slide2', 5000), 15000);
+        
+        // Show slide 2
+        setTimeout(() => showSlide('explanations', 5000), 20000);
+        
+        // Show explanations
+        setTimeout(() => showSlide('final', 5000), 25000);
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message for I MAKE PEOPLE SADaan</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+            animation: fadeIn 2s;
+            background: #fff;
+            transition: background 2s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes backgroundChange {
+            0% { background: #f3e5f5; }
+            33% { background: #e1bee7; }
+            66% { background: #d1c4e9; }
+            100% { background: #f3e5f5; }
+        }
+
+        .heart-animation {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: url('https://media.giphy.com/media/13dXWcphHKVpEC/giphy.gif') no-repeat center center;
+            background-size: contain;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .fade {
+            animation: fadeOut 3s forwards;
+        }
+
+        @keyframes fadeOut {
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+
+        .slide-in {
+            animation: slideIn 2s forwards;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(100%); }
+            to { transform: translateX(0); }
+        }
+
+        .message {
+            font-size: 28px;
+            margin: 20px 0;
+        }
+
+        .highlight {
+            color: #ff6b6b;
+            font-weight: bold;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="intro" class="container">
+        <div class="message">"You have sinned a lot already, now you gotta be punished with lots of negative energy, my child suffered a lot because of you, now you gotta pay for it."</div>
+    </div>
+
+    <div id="main" class="container hidden">
+        <div class="message">Here you go</div>
+    </div>
+
+    <div id="slide1" class="container hidden">
+        <div class="message" style="color: red;">"You always think that we're drifting away."</div>
+        <div class="message">"This is your sin number 1."</div>
+    </div>
+
+    <div id="slide2" class="container hidden">
+        <div class="message">"Eh! Playing the victim card now."</div>
+    <div class="message">"This is your sin number 2."</div>
+</div>
+
+    <div id="explanations" class="container hidden">
+        <h1>EXPLANATIONS</h1>
+        <div class="message">
+            "I have abandonment issues and I know it, but getting hurt by you literally made me wake up from my dream that I thought you'd understand me no matter what, coz you know my whole life, but I was wrong, thanks for proving me wrong."
+        </div>
+    </div>
+
+    <div id="final" class="container hidden">
+        <div class="message">
+            "Thank you for watching, that's how I watched my life tearing apart."
+        </div>
+    </div>
+
+    <audio id="background-music" autoplay>
+        <source src="https://www.jiosaavn.com/p/song/search/Gaddi-Red-Challenger/Gaddi-Red-Challenger/SSo7SwMJT0I" type="audio/mpeg">
+        
+    </audio>
+
+    <script>
+        function showSlide(id, delay) {
+            setTimeout(() => {
+                document.querySelectorAll('.container').forEach(container => container.classList.add('hidden'));
+                document.getElementById(id).classList.remove('hidden');
+            }, delay);
+        }
+
+        // Initial setup
+        document.getElementById('intro').classList.remove('hidden');
+        
+        // Show intro
+        setTimeout(() => showSlide('main', 5000), 5000);
+        
+        // Show main message
+        setTimeout(() => showSlide('slide1', 5000), 10000);
+        
+        // Show slide 1
+        setTimeout(() => showSlide('slide2', 5000), 15000);
+        
+        // Show slide 2
+        setTimeout(() => showSlide('explanations', 5000), 20000);
+        
+        // Show explanations
+        setTimeout(() => showSlide('final', 5000), 25000);
+    </script>
+</body>
+</html>
